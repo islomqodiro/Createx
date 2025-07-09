@@ -133,7 +133,6 @@ a:hover {
     width: 200px;
 }
 .hero_search img {
-    /* margin-left: 180px; */
     position: absolute;
     cursor: pointer;
     left: right;
@@ -149,7 +148,6 @@ a:hover {
 }
 .cards {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: center;
     gap: 30px;
 }
@@ -290,7 +288,6 @@ margin-top: 8px;
 .test_text {
     display: flex;
     flex-direction: column;
-    /* gap: 5px; */
 }
 .test_text span:first-child {
     color: #1E212C;
@@ -323,7 +320,6 @@ margin-top: 8px;
     margin-left: 20px;
 }
 .four_sec_btn{
-    /* margin-left: 516px; */
     margin-top: 60px ;
     display: flex;
     gap: 12px;
@@ -393,13 +389,10 @@ max-width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin-top: 50px */
-    /* margin-left: 50px; */
 }
 .logos {
     display: flex;
     gap: 50px;
-    /* margin-top: 50px; */
 }
 
 
@@ -542,7 +535,7 @@ footer {
     min-width: 180px;
     margin-top: -50px;
   }
-  
+ 
   footer .footer-section h6 {
     font-size: 14px;
     margin-bottom: 20px;
@@ -553,6 +546,9 @@ footer {
   footer .footer-section ul {
     list-style: none;
     padding: 0;
+  }
+  .footer-cantact {
+    margin-top: -80px;
   }
   
   
@@ -591,14 +587,18 @@ footer {
     border-radius: 4px;
     margin-bottom: 10px;
   }
+  .contact-info {
+    margin-top: 150px;
+  }
   
   footer .newsletter button {
-    padding: 10px 15px;
+    padding: 5px 15px;
     background-color: #ff3f3a;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    height: 35px;
   }
   
   footer .newsletter button:hover {
@@ -613,15 +613,28 @@ footer {
   }
   
   footer .bottom {
-    text-align: center;
-    padding: 20px 0 0;
     font-size: 13px;
     color: #aaa;
     border-top: 1px solid #333;
+   
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  
   }
   .phone {
     display: flex;
   }
   
-
-  
+.newsletter-form {
+    display: flex;
+    gap: 5px;
+}
+ .newsletter-title {
+    margin-top: -30px;
+ }
